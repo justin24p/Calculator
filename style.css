@@ -44,12 +44,15 @@ body {
 }
 #blue,
 #green,
-.smalButtons {
+.smalButtons,
+#equal,
+#plus,
+#minus,
+#divide,
+#multiply {
     height: 68px;
     width: 100%;
     font-size: 18px;
-}
-button {
     border: solid 2px black;
     border-radius: 5px;
 }
@@ -78,4 +81,5 @@ button {
 }
 .screen-last {
     font-size: 20px;
+    min-height: 20px;
 }
